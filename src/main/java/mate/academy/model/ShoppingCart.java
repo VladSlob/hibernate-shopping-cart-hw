@@ -11,9 +11,6 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import java.util.ArrayList;
-import java.util.List;
-
-@Entity
 
     private Long id;
     @OneToMany(
